@@ -1,0 +1,108 @@
+{
+  "business": {
+    "name": "Maya Rivera",
+    "tagline": "Photography & Visual Storytelling",
+    "description": "Maya Rivera is a portrait and lifestyle photographer based in Los Angeles. With over 8 years of experience, she captures authentic moments that tell your story.",
+    "phone": "(555) 876-5432",
+    "email": "hello@mayarivera.com",
+    "address": "Studio 204, Arts District, Los Angeles, CA 90013",
+    "availability": "Currently booking Q2 2026"
+  },
+  "social": {
+    "instagram": "https://instagram.com/mayarivera",
+    "pinterest": "https://pinterest.com/mayarivera",
+    "linkedin": "https://linkedin.com/in/mayarivera"
+  },
+  "nav": [
+    { "label": "Home", "href": "/demos/portfolio" },
+    { "label": "Work", "href": "/demos/portfolio/work" },
+    { "label": "Contact", "href": "/demos/portfolio/contact" }
+  ],
+  "hero": {
+    "headline": "Capturing Life's\nBeautiful Moments",
+    "subheadline": "Los Angeles Portrait & Lifestyle Photographer",
+    "backgroundImage": "https://placehold.co/1920x1080/f8fafc/2563eb?text=Maya+Rivera+Photography",
+    "ctaText": "View My Work",
+    "ctaLink": "/demos/portfolio/work"
+  },
+  "about": {
+    "heading": "About Maya",
+    "text": "I believe every person has a story worth telling. My approach combines natural light, genuine emotion, and careful composition to create images that feel alive. Whether it's a brand shoot, a family session, or a creative portrait — I'm here to make you look and feel like the best version of yourself.",
+    "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Maya+Portrait"
+  },
+  "categories": [
+    {
+      "name": "Portraits",
+      "slug": "portraits",
+      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Portraits",
+      "count": 24
+    },
+    {
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Lifestyle",
+      "count": 18
+    },
+    {
+      "name": "Brand & Commercial",
+      "slug": "brand",
+      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Brand",
+      "count": 12
+    },
+    {
+      "name": "Events",
+      "slug": "events",
+      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Events",
+      "count": 30
+    }
+  ],
+  "featuredWork": [
+    {
+      "title": "Summer Editorial",
+      "category": "Portraits",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Editorial+1"
+    },
+    {
+      "title": "Brand Launch — Glow Skincare",
+      "category": "Brand & Commercial",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Brand+Shoot"
+    },
+    {
+      "title": "The Williams Family",
+      "category": "Lifestyle",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Family+Session"
+    },
+    {
+      "title": "Downtown Creative Portraits",
+      "category": "Portraits",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Creative+Portraits"
+    },
+    {
+      "title": "Rooftop Engagement",
+      "category": "Events",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Engagement"
+    },
+    {
+      "title": "Fitness Campaign",
+      "category": "Brand & Commercial",
+      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Fitness+Campaign"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Mini Session",
+      "price": "$250",
+      "includes": ["30 minutes", "1 location", "10 edited photos", "Online gallery"]
+    },
+    {
+      "name": "Standard Session",
+      "price": "$500",
+      "includes": ["1 hour", "2 locations", "25 edited photos", "Online gallery", "Print release"]
+    },
+    {
+      "name": "Premium Session",
+      "price": "$900",
+      "includes": ["2 hours", "3 locations", "50+ edited photos", "Online gallery", "Print release", "1 canvas print"]
+    }
+  ]
+}

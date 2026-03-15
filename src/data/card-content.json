@@ -1,0 +1,77 @@
+{
+  "business": {
+    "name": "Cole Cuts",
+    "tagline": "Premium Grooming Experience",
+    "description": "Where style meets precision. Cole Cuts has been the go-to barbershop for men who take their look seriously since 2018.",
+    "phone": "(555) 234-5678",
+    "email": "book@colecuts.com",
+    "address": "742 Main Street, Suite 3, Atlanta, GA 30308",
+    "hours": "Tue-Sat: 9AM - 7PM | Sun-Mon: Closed"
+  },
+  "social": {
+    "instagram": "https://instagram.com/colecuts",
+    "facebook": "https://facebook.com/colecuts",
+    "tiktok": "https://tiktok.com/@colecuts"
+  },
+  "hero": {
+    "headline": "Look Sharp. Feel Sharp.",
+    "subheadline": "Atlanta's Premier Barbershop",
+    "backgroundImage": "https://placehold.co/1920x1080/111111/D4A843?text=Cole+Cuts+Hero",
+    "ctaText": "Book Now",
+    "ctaLink": "#contact"
+  },
+  "services": [
+    {
+      "name": "The Classic Cut",
+      "price": "$35",
+      "description": "Precision haircut with hot towel finish"
+    },
+    {
+      "name": "The Royal",
+      "price": "$50",
+      "description": "Cut + beard trim + lineup + hot towel"
+    },
+    {
+      "name": "Beard Sculpt",
+      "price": "$25",
+      "description": "Full beard shaping and conditioning"
+    },
+    {
+      "name": "The VIP",
+      "price": "$75",
+      "description": "Cut + beard + facial + scalp massage"
+    },
+    {
+      "name": "Kid's Cut",
+      "price": "$20",
+      "description": "Ages 12 and under"
+    },
+    {
+      "name": "Line Up",
+      "price": "$15",
+      "description": "Edge and lineup only"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Marcus T.",
+      "text": "Best barbershop in Atlanta. Cole always gets my fade right."
+    },
+    {
+      "name": "DeAndre W.",
+      "text": "The VIP treatment is worth every penny. I won't go anywhere else."
+    },
+    {
+      "name": "James K.",
+      "text": "Clean shop, great vibes, perfect cuts. What more do you need?"
+    }
+  ],
+  "gallery": [
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+1",
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+2",
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+3",
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+4",
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+5",
+    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+6"
+  ]
+}

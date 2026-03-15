@@ -1,0 +1,156 @@
+{
+  "business": {
+    "name": "Street Crown Apparel",
+    "tagline": "Wear the Crown",
+    "description": "Street Crown Apparel blends streetwear culture with premium quality. Every piece is designed to make a statement. Limited drops. Bold designs. Crown yourself.",
+    "phone": "(555) 789-0123",
+    "email": "support@streetcrown.com",
+    "address": "330 Canal St, New York, NY 10013",
+    "hours": "Mon-Sat: 11AM - 8PM | Sun: 12PM - 6PM"
+  },
+  "social": {
+    "instagram": "https://instagram.com/streetcrown",
+    "tiktok": "https://tiktok.com/@streetcrown",
+    "twitter": "https://x.com/streetcrown"
+  },
+  "nav": [
+    { "label": "Home", "href": "/demos/store" },
+    { "label": "Shop", "href": "/demos/store/shop" },
+    { "label": "Cart", "href": "/demos/store/cart" }
+  ],
+  "announcement": "FREE SHIPPING ON ORDERS OVER $100 | NEW DROP FRIDAY",
+  "hero": {
+    "headline": "Wear the Crown",
+    "subheadline": "New Collection Out Now",
+    "backgroundImage": "https://placehold.co/1920x1080/0d0b14/8b5cf6?text=Street+Crown+Apparel",
+    "ctaText": "Shop Now",
+    "ctaLink": "/demos/store/shop"
+  },
+  "collections": [
+    { "name": "New Arrivals", "slug": "new" },
+    { "name": "Hoodies", "slug": "hoodies" },
+    { "name": "Tees", "slug": "tees" },
+    { "name": "Accessories", "slug": "accessories" }
+  ],
+  "products": [
+    {
+      "id": "crown-hoodie-black",
+      "name": "Crown Logo Hoodie — Black",
+      "price": 85,
+      "originalPrice": null,
+      "collection": "hoodies",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Hoodie+Black+Front",
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Hoodie+Black+Back"
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        { "name": "Black", "hex": "#111111" },
+        { "name": "Purple", "hex": "#8b5cf6" }
+      ],
+      "description": "Premium heavyweight hoodie with embroidered crown logo. 80% cotton, 20% polyester. Oversized fit.",
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "crown-tee-white",
+      "name": "Crown Logo Tee — White",
+      "price": 45,
+      "originalPrice": null,
+      "collection": "tees",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Tee+White+Front",
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Tee+White+Back"
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "White", "hex": "#ffffff" },
+        { "name": "Black", "hex": "#111111" }
+      ],
+      "description": "100% organic cotton tee with screen-printed crown logo. Standard fit.",
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "streetking-hoodie",
+      "name": "Street King Pullover",
+      "price": 95,
+      "originalPrice": 120,
+      "collection": "hoodies",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Street+King+Front",
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Street+King+Back"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": [
+        { "name": "Charcoal", "hex": "#333333" }
+      ],
+      "description": "Limited edition pullover with all-over 'Street King' print. Heavy fleece. Drop shoulder.",
+      "featured": true,
+      "new": false
+    },
+    {
+      "id": "crown-cap",
+      "name": "Crown Snapback Cap",
+      "price": 35,
+      "originalPrice": null,
+      "collection": "accessories",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Cap+Front",
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Cap+Side"
+      ],
+      "sizes": ["One Size"],
+      "colors": [
+        { "name": "Black", "hex": "#111111" },
+        { "name": "Purple", "hex": "#8b5cf6" },
+        { "name": "White", "hex": "#ffffff" }
+      ],
+      "description": "Structured snapback with embroidered crown. Adjustable snap closure.",
+      "featured": false,
+      "new": true
+    },
+    {
+      "id": "royalty-tee",
+      "name": "Royalty Graphic Tee",
+      "price": 50,
+      "originalPrice": null,
+      "collection": "tees",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Royalty+Tee+Front",
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Royalty+Tee+Back"
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        { "name": "Black", "hex": "#111111" }
+      ],
+      "description": "Bold graphic tee featuring 'Royalty' typography. Premium cotton. Relaxed fit.",
+      "featured": true,
+      "new": false
+    },
+    {
+      "id": "crown-beanie",
+      "name": "Crown Ribbed Beanie",
+      "price": 30,
+      "originalPrice": null,
+      "collection": "accessories",
+      "images": [
+        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Beanie"
+      ],
+      "sizes": ["One Size"],
+      "colors": [
+        { "name": "Black", "hex": "#111111" },
+        { "name": "Gray", "hex": "#666666" }
+      ],
+      "description": "Soft ribbed knit beanie with embroidered crown patch. One size fits most.",
+      "featured": false,
+      "new": false
+    }
+  ],
+  "featuredBanner": {
+    "headline": "The Crown Collection",
+    "subheadline": "Limited drop. Once it's gone, it's gone.",
+    "image": "https://placehold.co/1200x600/1a1625/8b5cf6?text=Crown+Collection+Banner",
+    "ctaText": "Shop the Drop",
+    "ctaLink": "/demos/store/shop"
+  }
+}

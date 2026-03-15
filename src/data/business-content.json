@@ -1,0 +1,142 @@
+{
+  "business": {
+    "name": "Iron Temple Fitness",
+    "tagline": "Forge Your Strength",
+    "description": "Iron Temple Fitness is more than a gym — it's a community of dedicated athletes pushing limits every day. State-of-the-art equipment, expert trainers, and an atmosphere that demands your best.",
+    "phone": "(555) 456-7890",
+    "email": "info@irontemplefitness.com",
+    "address": "1200 Industrial Blvd, Houston, TX 77002",
+    "hours": "Mon-Fri: 5AM - 10PM | Sat-Sun: 7AM - 8PM"
+  },
+  "social": {
+    "instagram": "https://instagram.com/irontemplefitness",
+    "facebook": "https://facebook.com/irontemplefitness",
+    "youtube": "https://youtube.com/@irontemplefitness",
+    "tiktok": "https://tiktok.com/@irontemplefitness"
+  },
+  "nav": [
+    { "label": "Home", "href": "/demos/business" },
+    { "label": "Services", "href": "/demos/business/services" },
+    { "label": "About", "href": "/demos/business/about" },
+    { "label": "Contact", "href": "/demos/business/contact" }
+  ],
+  "hero": {
+    "headline": "Forge Your\nStrength",
+    "subheadline": "Houston's Premier Training Facility",
+    "backgroundImage": "https://placehold.co/1920x1080/0f0f0f/ea580c?text=Iron+Temple+Fitness",
+    "ctaText": "Start Your Journey",
+    "ctaLink": "/demos/business/contact"
+  },
+  "services": [
+    {
+      "name": "Personal Training",
+      "price": "$80/session",
+      "description": "One-on-one sessions with a certified trainer tailored to your goals. Includes fitness assessment and custom program.",
+      "icon": "dumbbell"
+    },
+    {
+      "name": "Group Classes",
+      "price": "$30/class",
+      "description": "High-energy group workouts including HIIT, spin, boxing, and yoga. All fitness levels welcome.",
+      "icon": "users"
+    },
+    {
+      "name": "Nutrition Coaching",
+      "price": "$150/month",
+      "description": "Personalized meal plans, macro tracking, and bi-weekly check-ins with our nutrition specialist.",
+      "icon": "apple"
+    },
+    {
+      "name": "Open Gym Access",
+      "price": "$50/month",
+      "description": "24/7 access to all equipment, locker rooms, and recovery area. No contracts.",
+      "icon": "key"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "Basic",
+      "price": "$50",
+      "period": "/month",
+      "features": ["Open gym access", "Locker room", "Free parking", "1 guest pass/month"]
+    },
+    {
+      "name": "Pro",
+      "price": "$99",
+      "period": "/month",
+      "features": ["Everything in Basic", "Unlimited group classes", "Recovery area access", "4 guest passes/month"],
+      "popular": true
+    },
+    {
+      "name": "Elite",
+      "price": "$199",
+      "period": "/month",
+      "features": ["Everything in Pro", "4 PT sessions/month", "Nutrition coaching", "Priority booking", "Towel service"]
+    }
+  ],
+  "team": [
+    {
+      "name": "Marcus Johnson",
+      "role": "Head Trainer & Owner",
+      "bio": "15+ years experience. Former college athlete. NASM & ACE certified.",
+      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Marcus"
+    },
+    {
+      "name": "Sarah Chen",
+      "role": "Yoga & Mobility Coach",
+      "bio": "RYT-500 certified. Specializes in recovery and flexibility training.",
+      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Sarah"
+    },
+    {
+      "name": "David Okafor",
+      "role": "Strength & Conditioning",
+      "bio": "CSCS certified. Works with athletes from high school to pro level.",
+      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=David"
+    },
+    {
+      "name": "Lisa Park",
+      "role": "Nutrition Specialist",
+      "bio": "Registered dietitian with a focus on sports nutrition and body composition.",
+      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Lisa"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Kevin R.",
+      "text": "Iron Temple changed my life. Down 40 lbs and stronger than ever. The trainers actually care.",
+      "rating": 5
+    },
+    {
+      "name": "Amanda S.",
+      "text": "Best gym I've ever been a member of. The group classes are incredible and the community is unmatched.",
+      "rating": 5
+    },
+    {
+      "name": "Tyler M.",
+      "text": "As a former athlete, I needed a gym that could keep up. Iron Temple delivers every single day.",
+      "rating": 5
+    }
+  ],
+  "about": {
+    "story": "Iron Temple Fitness was founded in 2019 by Marcus Johnson with one mission: create a training environment where everybody — from first-timers to seasoned athletes — can push their limits and see real results. What started as a 2,000 sq ft garage gym has grown into Houston's most respected training facility.",
+    "stats": [
+      { "number": "500+", "label": "Active Members" },
+      { "number": "15", "label": "Expert Trainers" },
+      { "number": "20K", "label": "Sq Ft Facility" },
+      { "number": "4.9", "label": "Google Rating" }
+    ],
+    "values": [
+      { "title": "Results First", "description": "Every program is built around measurable outcomes. We track progress and adjust." },
+      { "title": "Community", "description": "We're not just a gym. We're a team. Members push each other to be better." },
+      { "title": "No Ego", "description": "Leave the attitude at the door. Everyone starts somewhere." }
+    ]
+  },
+  "gallery": [
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Gym+Floor",
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Weight+Room",
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Group+Class",
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Recovery+Area",
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Boxing+Ring",
+    "https://placehold.co/600x400/1a1a1a/ea580c?text=Cardio+Zone"
+  ]
+}
