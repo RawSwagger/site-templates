@@ -1,7 +1,6 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
+import Image from "next/image";
+import ScrollReveal from "@/components/ScrollReveal";
 
 /* ─── Data ─── */
 
@@ -14,7 +13,7 @@ const tiers = [
     pages: "1 page",
     color: "#D4A843",
     href: "/demos/card",
-    image: "https://images.unsplash.com/photo-1517869129960-b9b74bfcdecb?w=800&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1517869129960-b9b74bfcdecb?w=700&fit=crop&q=75",
   },
   {
     name: "The Portfolio",
@@ -24,7 +23,7 @@ const tiers = [
     pages: "3 pages",
     color: "#2563eb",
     href: "/demos/portfolio",
-    image: "https://images.unsplash.com/photo-1572028412480-0a75271c6bb9?w=800&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1572028412480-0a75271c6bb9?w=700&fit=crop&q=75",
   },
   {
     name: "The Business",
@@ -34,7 +33,7 @@ const tiers = [
     pages: "4 pages",
     color: "#ea580c",
     href: "/demos/business",
-    image: "https://images.unsplash.com/photo-1545612036-2872840642dc?w=800&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1545612036-2872840642dc?w=700&fit=crop&q=75",
   },
   {
     name: "The Store",
@@ -44,7 +43,7 @@ const tiers = [
     pages: "4+ pages",
     color: "#8b5cf6",
     href: "/demos/store",
-    image: "https://images.unsplash.com/photo-1756641964889-5a04b6e0f4f6?w=800&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1756641964889-5a04b6e0f4f6?w=700&fit=crop&q=75",
   },
 ];
 
@@ -61,7 +60,7 @@ const marqueeItems = [
   "Lawyers", "Tattoo Artists", "DJs", "Personal Trainers", "Nail Techs",
 ];
 
-const process = [
+const steps = [
   {
     step: "01",
     title: "Pick Your Tier",
@@ -102,22 +101,13 @@ const testimonials = [
   },
 ];
 
-/* ─── Animation Variants ─── */
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } },
-};
-
-const stagger = {
-  visible: { transition: { staggerChildren: 0.15 } },
-};
-
-/* ─── Page ─── */
+/* ─── Page (Server Component — renders instantly, no JS needed) ─── */
 
 export default function ShowroomPage() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white overflow-hidden">
+      {/* This tiny client component just watches .reveal elements and adds .visible */}
+      <ScrollReveal />
 
       {/* ── NAV ── */}
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#0a0a0a]/80 border-b border-white/5">
@@ -141,70 +131,40 @@ export default function ShowroomPage() {
 
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center pt-16 grain-overlay">
-        {/* Glow effects */}
         <div className="hero-glow bg-[#6366f1] top-1/4 left-1/4 -translate-x-1/2" />
         <div className="hero-glow bg-[#ec4899] bottom-1/4 right-1/4 translate-x-1/2" />
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-sm uppercase tracking-[0.3em] text-white/40 mb-6"
-          >
+          <p className="hero-animate text-sm uppercase tracking-[0.3em] text-white/40 mb-6">
             Web Design Studio
-          </motion.p>
+          </p>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight mb-8"
-          >
+          <h1 className="hero-animate hero-animate-delay-1 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight mb-8">
             We build websites<br />
             that make people<br />
             <span className="gradient-text">want to buy.</span>
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-lg md:text-xl text-white/50 max-w-xl mx-auto mb-10"
-          >
+          <p className="hero-animate hero-animate-delay-2 text-lg md:text-xl text-white/50 max-w-xl mx-auto mb-10">
             Pick your tier. See exactly what you get. Your site goes live in 1-2 weeks.
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex items-center justify-center gap-4"
-          >
+          <div className="hero-animate hero-animate-delay-3 flex items-center justify-center gap-4 flex-wrap">
             <a href="#work" className="bg-white text-black px-8 py-3.5 rounded-full font-semibold text-sm hover:bg-white/90 transition-colors">
               See Our Work
             </a>
             <a href="#pricing" className="border border-white/20 text-white px-8 py-3.5 rounded-full font-semibold text-sm hover:border-white/40 transition-colors">
               View Pricing
             </a>
-          </motion.div>
+          </div>
         </div>
 
         {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-5 h-8 border-2 border-white/20 rounded-full flex items-start justify-center p-1"
-          >
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 scroll-indicator">
+          <div className="w-5 h-8 border-2 border-white/20 rounded-full flex items-start justify-center p-1">
             <div className="w-1 h-2 bg-white/40 rounded-full" />
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </section>
 
       {/* ── MARQUEE ── */}
@@ -221,33 +181,20 @@ export default function ShowroomPage() {
       {/* ── FEATURED WORK ── */}
       <section id="work" className="py-24 md:py-32 px-6">
         <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeUp}
-            className="mb-16"
-          >
+          <div className="reveal mb-16">
             <p className="text-sm uppercase tracking-[0.2em] text-[#6366f1] mb-3">Selected Work</p>
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
               Real demos. Real designs.<br className="hidden md:block" />
               Click one and see for yourself.
             </h2>
-          </motion.div>
+          </div>
 
-          {/* Broken grid portfolio */}
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
-            variants={stagger}
-            className="grid grid-cols-1 md:grid-cols-12 gap-5"
-          >
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-5 reveal-stagger">
             {/* Card — large */}
-            <motion.div variants={fadeUp} className="md:col-span-7">
+            <div className="reveal md:col-span-7">
               <Link href={tiers[0].href}>
                 <div className="portfolio-card aspect-[4/3]">
-                  <img src={tiers[0].image} alt={tiers[0].business} loading="lazy" />
+                  <Image src={tiers[0].image} alt={tiers[0].business} fill sizes="(max-width: 768px) 100vw, 58vw" className="object-cover" priority />
                   <div className="card-overlay">
                     <span className="text-xs uppercase tracking-[0.2em] mb-1" style={{ color: tiers[0].color }}>
                       {tiers[0].name} &middot; {tiers[0].pages}
@@ -260,13 +207,13 @@ export default function ShowroomPage() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
 
-            {/* Portfolio — smaller, offset */}
-            <motion.div variants={fadeUp} className="md:col-span-5 md:mt-16">
+            {/* Portfolio — offset */}
+            <div className="reveal md:col-span-5 md:mt-16">
               <Link href={tiers[1].href}>
                 <div className="portfolio-card aspect-[3/4]">
-                  <img src={tiers[1].image} alt={tiers[1].business} loading="lazy" />
+                  <Image src={tiers[1].image} alt={tiers[1].business} fill sizes="(max-width: 768px) 100vw, 42vw" className="object-cover" />
                   <div className="card-overlay">
                     <span className="text-xs uppercase tracking-[0.2em] mb-1" style={{ color: tiers[1].color }}>
                       {tiers[1].name} &middot; {tiers[1].pages}
@@ -279,13 +226,13 @@ export default function ShowroomPage() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
 
-            {/* Business — smaller */}
-            <motion.div variants={fadeUp} className="md:col-span-5 md:-mt-12">
+            {/* Business */}
+            <div className="reveal md:col-span-5 md:-mt-12">
               <Link href={tiers[2].href}>
                 <div className="portfolio-card aspect-[3/4]">
-                  <img src={tiers[2].image} alt={tiers[2].business} loading="lazy" />
+                  <Image src={tiers[2].image} alt={tiers[2].business} fill sizes="(max-width: 768px) 100vw, 42vw" className="object-cover" />
                   <div className="card-overlay">
                     <span className="text-xs uppercase tracking-[0.2em] mb-1" style={{ color: tiers[2].color }}>
                       {tiers[2].name} &middot; {tiers[2].pages}
@@ -298,13 +245,13 @@ export default function ShowroomPage() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
 
             {/* Store — large */}
-            <motion.div variants={fadeUp} className="md:col-span-7">
+            <div className="reveal md:col-span-7">
               <Link href={tiers[3].href}>
                 <div className="portfolio-card aspect-[4/3]">
-                  <img src={tiers[3].image} alt={tiers[3].business} loading="lazy" />
+                  <Image src={tiers[3].image} alt={tiers[3].business} fill sizes="(max-width: 768px) 100vw, 58vw" className="object-cover" />
                   <div className="card-overlay">
                     <span className="text-xs uppercase tracking-[0.2em] mb-1" style={{ color: tiers[3].color }}>
                       {tiers[3].name} &middot; {tiers[3].pages}
@@ -317,92 +264,60 @@ export default function ShowroomPage() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* ── STATS ── */}
       <section className="py-20 border-y border-white/5">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={stagger}
-          className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8"
-        >
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 reveal-stagger">
           {stats.map((stat) => (
-            <motion.div key={stat.label} variants={fadeUp} className="text-center">
+            <div key={stat.label} className="reveal text-center">
               <p className="stat-number gradient-text">{stat.number}</p>
               <p className="text-sm text-white/40 mt-2 uppercase tracking-wider">{stat.label}</p>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </section>
 
       {/* ── PROCESS ── */}
       <section id="process" className="py-24 md:py-32 px-6">
         <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeUp}
-            className="mb-16"
-          >
+          <div className="reveal mb-16">
             <p className="text-sm uppercase tracking-[0.2em] text-[#6366f1] mb-3">How It Works</p>
             <h2 className="text-3xl md:text-5xl font-bold">
               Four steps. That&apos;s it.
             </h2>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={stagger}
-            className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12"
-          >
-            {process.map((step) => (
-              <motion.div key={step.step} variants={fadeUp} className="process-step" data-step={step.step}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12 reveal-stagger">
+            {steps.map((step) => (
+              <div key={step.step} className="reveal process-step" data-step={step.step}>
                 <h3 className="text-xl font-bold mb-2">{step.title}</h3>
                 <p className="text-white/50 leading-relaxed">{step.description}</p>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* ── TESTIMONIALS ── */}
       <section className="py-24 md:py-32 px-6 bg-[#111]">
         <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeUp}
-            className="mb-16"
-          >
+          <div className="reveal mb-16">
             <p className="text-sm uppercase tracking-[0.2em] text-[#6366f1] mb-3">Testimonials</p>
             <h2 className="text-3xl md:text-5xl font-bold">
               Don&apos;t take our word for it.
             </h2>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={stagger}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6"
-          >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
             {testimonials.map((t) => (
-              <motion.div
+              <div
                 key={t.name}
-                variants={fadeUp}
-                className="bg-white/5 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-colors"
+                className="reveal bg-white/5 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-colors"
               >
-                {/* Stars */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-[#f59e0b]" fill="currentColor" viewBox="0 0 20 20">
@@ -415,22 +330,16 @@ export default function ShowroomPage() {
                   <p className="font-semibold text-sm">{t.name}</p>
                   <p className="text-xs text-white/40">{t.title}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
-      {/* ── PRICING OVERVIEW ── */}
+      {/* ── PRICING ── */}
       <section id="pricing" className="py-24 md:py-32 px-6">
         <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeUp}
-            className="text-center mb-16"
-          >
+          <div className="reveal text-center mb-16">
             <p className="text-sm uppercase tracking-[0.2em] text-[#6366f1] mb-3">Pricing</p>
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
               A site for every budget.
@@ -438,20 +347,13 @@ export default function ShowroomPage() {
             <p className="text-white/40 max-w-xl mx-auto">
               Every tier includes responsive design, fast hosting setup, and a site you own forever. No monthly fees unless you want maintenance.
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={stagger}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 reveal-stagger">
             {tiers.map((tier) => (
-              <motion.div
+              <div
                 key={tier.name}
-                variants={fadeUp}
-                className="bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-all group"
+                className="reveal bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-all"
               >
                 <div className="w-3 h-3 rounded-full mb-4" style={{ backgroundColor: tier.color }} />
                 <h3 className="text-lg font-bold mb-1">{tier.name}</h3>
@@ -459,27 +361,21 @@ export default function ShowroomPage() {
                 <p className="text-2xl font-bold mb-6" style={{ color: tier.color }}>{tier.price}</p>
                 <Link
                   href={tier.href}
-                  className="block text-center py-2.5 rounded-lg text-sm font-medium border transition-all"
+                  className="block text-center py-2.5 rounded-lg text-sm font-medium border transition-all hover:opacity-80"
                   style={{ borderColor: tier.color + '40', color: tier.color }}
                 >
                   View Demo
                 </Link>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* ── CTA ── */}
       <section className="py-24 md:py-32 px-6 relative grain-overlay">
         <div className="hero-glow bg-[#6366f1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-          className="relative z-10 max-w-3xl mx-auto text-center"
-        >
+        <div className="reveal relative z-10 max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Ready to look like<br />
             <span className="gradient-text">you mean business?</span>
@@ -493,7 +389,7 @@ export default function ShowroomPage() {
           >
             Start Your Project &rarr;
           </a>
-        </motion.div>
+        </div>
       </section>
 
       {/* ── FOOTER ── */}
