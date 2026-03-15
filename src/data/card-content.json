@@ -16,7 +16,7 @@
   "hero": {
     "headline": "Look Sharp. Feel Sharp.",
     "subheadline": "Atlanta's Premier Barbershop",
-    "backgroundImage": "https://placehold.co/1920x1080/111111/D4A843?text=Cole+Cuts+Hero",
+    "backgroundImage": "https://images.unsplash.com/photo-1517869129960-b9b74bfcdecb?w=1920&fit=crop&q=80",
     "ctaText": "Book Now",
     "ctaLink": "#contact"
   },
@@ -67,11 +67,11 @@
     }
   ],
   "gallery": [
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+1",
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+2",
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+3",
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+4",
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+5",
-    "https://placehold.co/400x400/1a1a1a/D4A843?text=Cut+6"
+    "https://images.unsplash.com/photo-1593702288056-7927b442d0fa?w=400&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1514336937476-a5b961020a5c?w=400&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?w=400&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1634302104565-cc698ee83144?w=400&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1541533848490-bc8115cd6522?w=400&fit=crop&q=80"
   ]
 }

@@ -23,7 +23,7 @@
   "hero": {
     "headline": "Forge Your\nStrength",
     "subheadline": "Houston's Premier Training Facility",
-    "backgroundImage": "https://placehold.co/1920x1080/0f0f0f/ea580c?text=Iron+Temple+Fitness",
+    "backgroundImage": "https://images.unsplash.com/photo-1545612036-2872840642dc?w=1920&fit=crop&q=80",
     "ctaText": "Start Your Journey",
     "ctaLink": "/demos/business/contact"
   },
@@ -79,25 +79,25 @@
       "name": "Marcus Johnson",
       "role": "Head Trainer & Owner",
       "bio": "15+ years experience. Former college athlete. NASM & ACE certified.",
-      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Marcus"
+      "image": "https://images.unsplash.com/photo-1545346315-f4c47e3e1b55?w=400&fit=crop&q=80"
     },
     {
       "name": "Sarah Chen",
       "role": "Yoga & Mobility Coach",
       "bio": "RYT-500 certified. Specializes in recovery and flexibility training.",
-      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Sarah"
+      "image": "https://images.unsplash.com/photo-1559893088-c0787ebfc084?w=400&fit=crop&q=80"
     },
     {
       "name": "David Okafor",
       "role": "Strength & Conditioning",
       "bio": "CSCS certified. Works with athletes from high school to pro level.",
-      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=David"
+      "image": "https://images.unsplash.com/photo-1569931727734-b0c1138bfd87?w=400&fit=crop&q=80"
     },
     {
       "name": "Lisa Park",
       "role": "Nutrition Specialist",
       "bio": "Registered dietitian with a focus on sports nutrition and body composition.",
-      "image": "https://placehold.co/400x400/1a1a1a/ea580c?text=Lisa"
+      "image": "https://images.unsplash.com/photo-1581009137042-c552e485697a?w=400&fit=crop&q=80"
     }
   ],
   "testimonials": [
@@ -132,11 +132,11 @@
     ]
   },
   "gallery": [
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Gym+Floor",
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Weight+Room",
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Group+Class",
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Recovery+Area",
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Boxing+Ring",
-    "https://placehold.co/600x400/1a1a1a/ea580c?text=Cardio+Zone"
+    "https://images.unsplash.com/photo-1689877020200-403d8542d95d?w=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1621691211095-fe4b38f21788?w=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1716307035615-1c6465a32ef2?w=600&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1578763363228-6e8428de69b2?w=600&fit=crop&q=80"
   ]
 }

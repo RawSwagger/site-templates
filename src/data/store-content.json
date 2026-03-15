@@ -22,7 +22,7 @@
   "hero": {
     "headline": "Wear the Crown",
     "subheadline": "New Collection Out Now",
-    "backgroundImage": "https://placehold.co/1920x1080/0d0b14/8b5cf6?text=Street+Crown+Apparel",
+    "backgroundImage": "https://images.unsplash.com/photo-1756641964889-5a04b6e0f4f6?w=1920&fit=crop&q=80",
     "ctaText": "Shop Now",
     "ctaLink": "/demos/store/shop"
   },
@@ -40,8 +40,8 @@
       "originalPrice": null,
       "collection": "hoodies",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Hoodie+Black+Front",
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Hoodie+Black+Back"
+        "https://images.unsplash.com/photo-1632682582909-2b3a2581eef7?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1703531293255-0b16d10fe09f?w=600&fit=crop&q=80"
       ],
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "colors": [
@@ -59,8 +59,8 @@
       "originalPrice": null,
       "collection": "tees",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Tee+White+Front",
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Tee+White+Back"
+        "https://images.unsplash.com/photo-1605710988787-a2920d747d16?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1571455786673-9d9d6c194f90?w=600&fit=crop&q=80"
       ],
       "sizes": ["S", "M", "L", "XL"],
       "colors": [
@@ -78,8 +78,8 @@
       "originalPrice": 120,
       "collection": "hoodies",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Street+King+Front",
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Street+King+Back"
+        "https://images.unsplash.com/photo-1579572331145-5e53b299c64e?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1668441515735-39c4331a1fcb?w=600&fit=crop&q=80"
       ],
       "sizes": ["M", "L", "XL"],
       "colors": [
@@ -96,8 +96,8 @@
       "originalPrice": null,
       "collection": "accessories",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Cap+Front",
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Cap+Side"
+        "https://images.unsplash.com/photo-1458046143265-1824ba230418?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1616778504552-194fe8daad79?w=600&fit=crop&q=80"
       ],
       "sizes": ["One Size"],
       "colors": [
@@ -116,8 +116,8 @@
       "originalPrice": null,
       "collection": "tees",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Royalty+Tee+Front",
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Royalty+Tee+Back"
+        "https://images.unsplash.com/photo-1550505363-0ccfd722d763?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579725854926-dbeab39780bc?w=600&fit=crop&q=80"
       ],
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "colors": [
@@ -134,7 +134,8 @@
       "originalPrice": null,
       "collection": "accessories",
       "images": [
-        "https://placehold.co/600x800/1a1625/8b5cf6?text=Crown+Beanie"
+        "https://images.unsplash.com/photo-1599648918350-f81adfd34596?w=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1638295058811-1ad95c7c8c73?w=600&fit=crop&q=80"
       ],
       "sizes": ["One Size"],
       "colors": [
@@ -149,7 +150,7 @@
   "featuredBanner": {
     "headline": "The Crown Collection",
     "subheadline": "Limited drop. Once it's gone, it's gone.",
-    "image": "https://placehold.co/1200x600/1a1625/8b5cf6?text=Crown+Collection+Banner",
+    "image": "https://images.unsplash.com/photo-1718985342149-7178154e0aee?w=1200&fit=crop&q=80",
     "ctaText": "Shop the Drop",
     "ctaLink": "/demos/store/shop"
   }

@@ -21,38 +21,38 @@
   "hero": {
     "headline": "Capturing Life's\nBeautiful Moments",
     "subheadline": "Los Angeles Portrait & Lifestyle Photographer",
-    "backgroundImage": "https://placehold.co/1920x1080/f8fafc/2563eb?text=Maya+Rivera+Photography",
+    "backgroundImage": "https://images.unsplash.com/photo-1572028412480-0a75271c6bb9?w=1920&fit=crop&q=80",
     "ctaText": "View My Work",
     "ctaLink": "/demos/portfolio/work"
   },
   "about": {
     "heading": "About Maya",
     "text": "I believe every person has a story worth telling. My approach combines natural light, genuine emotion, and careful composition to create images that feel alive. Whether it's a brand shoot, a family session, or a creative portrait — I'm here to make you look and feel like the best version of yourself.",
-    "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Maya+Portrait"
+    "image": "https://images.unsplash.com/photo-1568387012412-3c8e57de99d1?w=600&fit=crop&q=80"
   },
   "categories": [
     {
       "name": "Portraits",
       "slug": "portraits",
-      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Portraits",
+      "coverImage": "https://images.unsplash.com/photo-1565884280295-98eb83e41c65?w=600&fit=crop&q=80",
       "count": 24
     },
     {
       "name": "Lifestyle",
       "slug": "lifestyle",
-      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Lifestyle",
+      "coverImage": "https://images.unsplash.com/photo-1745516193769-1c672e99cdb6?w=600&fit=crop&q=80",
       "count": 18
     },
     {
       "name": "Brand & Commercial",
       "slug": "brand",
-      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Brand",
+      "coverImage": "https://images.unsplash.com/photo-1748558894517-5ca245442811?w=600&fit=crop&q=80",
       "count": 12
     },
     {
       "name": "Events",
       "slug": "events",
-      "coverImage": "https://placehold.co/600x400/e2e8f0/2563eb?text=Events",
+      "coverImage": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=600&fit=crop&q=80",
       "count": 30
     }
   ],
@@ -60,32 +60,32 @@
     {
       "title": "Summer Editorial",
       "category": "Portraits",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Editorial+1"
+      "image": "https://images.unsplash.com/photo-1574526783053-c3afac70d448?w=600&fit=crop&q=80"
     },
     {
       "title": "Brand Launch — Glow Skincare",
       "category": "Brand & Commercial",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Brand+Shoot"
+      "image": "https://images.unsplash.com/photo-1670879806666-1c2705a2bc70?w=600&fit=crop&q=80"
     },
     {
       "title": "The Williams Family",
       "category": "Lifestyle",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Family+Session"
+      "image": "https://images.unsplash.com/photo-1660645074982-4e19e8946f77?w=600&fit=crop&q=80"
     },
     {
       "title": "Downtown Creative Portraits",
       "category": "Portraits",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Creative+Portraits"
+      "image": "https://images.unsplash.com/photo-1748354340469-8ccbaeeec585?w=600&fit=crop&q=80"
     },
     {
       "title": "Rooftop Engagement",
       "category": "Events",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Engagement"
+      "image": "https://images.unsplash.com/photo-1578359219991-efe67fa63626?w=600&fit=crop&q=80"
     },
     {
       "title": "Fitness Campaign",
       "category": "Brand & Commercial",
-      "image": "https://placehold.co/600x800/e2e8f0/2563eb?text=Fitness+Campaign"
+      "image": "https://images.unsplash.com/photo-1637579103895-9ba8218e9aca?w=600&fit=crop&q=80"
     }
   ],
   "packages": [
